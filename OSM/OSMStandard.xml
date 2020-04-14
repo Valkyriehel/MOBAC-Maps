@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <customMapSource>
-   <name>Mapquest Sat</name>
+   <name>OSM Standard</name>
    <minZoom>0</minZoom>
    <maxZoom>18</maxZoom>
    <tileType>png</tileType>
-   <url>http://otile1.mqcdn.com/tiles/1.0.0/sat/{$z}/{$x}/{$y}.jpg</url>
+   <url>http://tile.openstreetmap.org/{$z}/{$x}/{$y}.png</url>
    <tileUpdate>None</tileUpdate>
    <backgroundColor>#000000</backgroundColor>
    <ignoreErrors>false</ignoreErrors>
